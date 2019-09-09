@@ -1,0 +1,23 @@
+.sections-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sections-nav {
+  margin: 0 auto;
+  width: 75%;
+  font-family: $sans-serif;
+  
+}
+
+.sections-nav ul li {
+  padding: 3px;
+}
+
+.sections-nav ul li:hover {
+  background-color: $light-gray;
+  text-decoration: underline;
+  text-decoration-color: black;
+  cursor: pointer;
+  border-radius: 4px;
+}
